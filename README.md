@@ -39,3 +39,24 @@ Using *k = 5*, customers are grouped into 5 distinct clusters, for example:
 The final file Mall_Customers_segmented.csv contains the cluster label for each customer.
 
 ## Project Structure
+customer-segmentation-kmeans/
+│
+├── data/
+│   └── Mall_Customers.csv
+│
+├── images/
+│   ├── elbow_silhouette.png
+│   └── customer_clusters.png
+│
+├── outputs/
+│   └── Mall_Customers_segmented.csv
+│
+├── src/
+│   └── cluster.py
+│
+├── .gitignore
+├── requirements.txt
+└── README.md
+
+
+
